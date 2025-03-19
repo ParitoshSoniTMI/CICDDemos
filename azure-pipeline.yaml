@@ -17,9 +17,9 @@ steps:
     pip install pyspark==3.5.0
   displayName: 'Install dependencies'
 
- - checkout: self
-   clean: true
-   fetchDepth: 1
+- checkout: self
+  clean: true
+  fetchDepth: 1
 
 
 - script: |
