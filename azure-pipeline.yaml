@@ -31,7 +31,7 @@ steps:
       git fetch --tags
       # Get the latest tag
       git tag --sort=-v:refname | head -n 1
-      latestTag=$(git tag --sort=-v:refname | head -n 1)
+      latestTag="1.0.1" #$(git tag --sort=-v:refname | head -n 1)
       # Output the last tag
       echo "The latest tag is: $latestTag"
       # Extract version numbers
